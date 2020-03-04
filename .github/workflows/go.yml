@@ -13,4 +13,4 @@ jobs:
         go-version: 1.13
       id: go
     - name: Build
-      run: echo "hahaha"
+      run: go env
