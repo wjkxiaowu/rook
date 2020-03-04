@@ -11,9 +11,8 @@ jobs:
       uses: actions/setup-go@v1
       with:
         go-version: 1.13
-      id: go
       
     - name: Run custom command
-      uses: wjkxiaowu/rook
+      uses: wjkxiaowu/rook@master
       with:
         args: make
