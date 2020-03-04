@@ -14,5 +14,6 @@ jobs:
       
     - name: Run custom command
       uses: wjkxiaowu/rook@master
-      with:
-        args: make
+      run: |
+        ls 
+        make
